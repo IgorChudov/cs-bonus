@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Партнёры — CS2-Bonuses</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+  <!-- Header (reuse same markup or include via server-side include in advanced setup) -->
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">CS2-Bonuses</div>
+      <nav class="main-nav">
+        <a href="/">Главная</a>
+        <a href="/partners.html" class="active">Партнёры</a>
+        <a href="/reviews.html">Обзоры</a>
+        <a href="/news.html">Новости</a>
+      </nav>
+      <div class="actions">
+        <button class="btn primary" id="open-modal">Получить бонус</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Каталог партнёров</h1>
+      <div class="filters">
+        <select id="filter-type">
+          <option value="all">Все</option>
+          <option value="cases">Кейсы</option>
+          <option value="gambling">Ставки</option>
+          <option value="trade">Трейд</option>
+          <option value="boost">Бустинг</option>
+        </select>
+        <input id="search" placeholder="Поиск по названию">
+      </div>
+
+      <div id="partners-grid" class="grid"></div>
+    </div>
+  </main>
+
+  <footer class="footer container">
+    <small>Дисклеймер: Сайт участвует в партнёрских программах.</small>
+  </footer>
+</body>
+</html>

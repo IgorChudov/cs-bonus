@@ -1,35 +1,16 @@
 [
   {
-    "id": "hellcase",
-    "name": "Hellcase",
-    "type": "cases",
-    "logo": "/assets/images/logos/hellcase.png",
-    "rating": 4.6,
-    "bonus": "+30% к депозиту",
-    "description": "Открывай кейсы с шансом получить редкие скины.",
-    "url": "https://partner.example/hellcase",
-    "badge": "Популярный"
+    "title": "PLG.BET (бывш. CSGOPolygon)",
+    "description": "PLG.BET (CSGOPolygon) – Онлайн-казино на реальные деньги и ставки на CS2",
+    "image": "./assets/images/plg_logo.jpg",
+    "bonusCode": "igrxxx",
+    "link": "https://plgv2.com/"
   },
   {
-    "id": "csgoempire",
-    "name": "CSGOEmpire",
-    "type": "gambling",
-    "logo": "/assets/images/logos/csgoempire.png",
-    "rating": 4.4,
-    "bonus": "+10% на первый депозит",
-    "description": "Классические игры и ставки на скины.",
-    "url": "https://partner.example/csgoempire",
-    "badge": "Топ"
-  },
-  {
-    "id": "buff",
-    "name": "Buff",
-    "type": "trade",
-    "logo": "/assets/images/logos/buff.png",
-    "rating": 4.2,
-    "bonus": "Код: CS2BONUS",
-    "description": "Безопасный трейд и быстрые выплаты.",
-    "url": "https://partner.example/buff",
-    "badge": "Рекомендовано"
+    "title": "CSGO Roll",
+    "description": "Ставки на КС 2 и Дота 2: ставки на киберспорт, коэффициенты на матчи CS 2 и Dota 2",
+    "image": "./assets/images/csgorun_logo.jpg",
+    "bonusCode": "fts7k2",
+    "link": "https://csgouv.run/ref/fts7k2"
   }
 ]

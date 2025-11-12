@@ -1,0 +1,16 @@
+[
+  {
+    "name": "AK-47 | Redline",
+    "rarity": "Classified",
+    "price": "30$",
+    "image": "./assets/images/ak-47_redline.png",
+    "description": "Популярный скин с чёрно-красным дизайном. Один из самых узнаваемых у игроков."
+  },
+  {
+    "name": "AWP | Dragon Lore",
+    "rarity": "Covert",
+    "price": "1500$",
+    "image": "./assets/images/awp_dlore.png",
+    "description": "Легендарный скин AWP, символ статуса и редкости. Имеет мифическую ценность на рынке."
+  }
+]

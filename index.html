@@ -1,122 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CS2-Bonuses — бонусы, кейсы, трейд и ставки для CS2</title>
-  <meta name="description" content="Сравнение партнёров для CS2: кейсы, трейд, бустинг, ставки. Эксклюзивные промокоды." />
-  <link rel="icon" href="/assets/icons/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@300;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="description" content="Партнёрские сайты по CS2 с бонусами и промокодами.">
+  <title>CS2 Партнёры и Бонусы</title>
   <link rel="stylesheet" href="./assets/css/style.css">
-  <script defer src="./assets/js/app.js"></script>
 </head>
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <div class="brand">CS2-Bonuses</div>
-      <nav class="main-nav">
-        <a href="/">Главная</a>
-        <a href="/partners.html">Партнёры</a>
-        <a href="/reviews.html">Обзоры</a>
-        <a href="/news.html">Новости</a>
-        <a href="/contact.html">Контакты</a>
-      </nav>
-      <div class="actions">
-        <span class="promo">Промокод: <code>CS2FREE</code></span>
-        <button class="btn primary" id="hero-cta">Получить бонус</button>
-      </div>
+  <header>
+    <div class="header">
+      <img class="logo" src="./assets/images/logo cs-bonus.webp" alt="cs-bonus сайт с промокодами кс (кс-го)">
+      <h1>CS-Bonus</h1>
     </div>
+    
+    <nav class="navigation">
+      <a href="skins.html">Каталог скинов</a>
+    </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <h1>CS2-Bonuses</h1>
-          <p class="lead">Сравнение лучших площадок для кейсов, трейда, ставок и бустинга. Эксклюзивные промокоды и быстрые обзоры.</p>
-          <div class="hero-ctas">
-            <button class="btn primary" id="hero-cta-2">Получить бонус</button>
-            <a href="/partners.html" class="btn ghost">Смотреть партнёров</a>
-          </div>
-
-          <div class="partners-inline" id="partners-inline"></div>
-        </div>
-
-        <div class="hero-media">
-          <img src="/assets/images/hero-cs2.jpg" alt="CS2 hero art" loading="lazy">
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="top-partners">
-      <div class="container">
-        <h2>Топ партнёров</h2>
-        <div id="partners-list" class="grid"></div>
-      </div>
-    </section>
-
-    <section class="section testimonials">
-      <div class="container">
-        <h2>Отзывы пользователей</h2>
-        <div class="card-grid">
-          <article class="card testimonial">
-            <p>«Быстрые выплаты и хорошие бонусы — рекомендую!»</p>
-            <div class="meta">— Ivan K.</div>
-          </article>
-          <article class="card testimonial">
-            <p>«Открыл нож в первый же месяц. Крутое место для кейсов.»</p>
-            <div class="meta">— Sasha</div>
-          </article>
-        </div>
-      </div>
-    </section>
-
+    <section id="partners-container" class="cards-grid"></section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="brand">CS2-Bonuses</div>
-        <small>Мы участвуем в партнёрских программах. Сайт носит информационный характер.</small>
-      </div>
-      <div>
-        <h4>Навигация</h4>
-        <ul class="links">
-          <li><a href="/partners.html">Партнёры</a></li>
-          <li><a href="/reviews.html">Обзоры</a></li>
-          <li><a href="/news.html">Новости</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Подписка</h4>
-        <form id="subscribe-form">
-          <input type="email" name="email" placeholder="Email" required>
-          <button class="btn small">Подписаться</button>
-        </form>
-      </div>
-    </div>
+  <footer>
+    <p>© 2025 CS Info Hub</p>
   </footer>
 
-  <!-- Modal CTA -->
-  <div id="modal" class="modal" aria-hidden="true">
-    <div class="modal-panel">
-      <button class="modal-close" id="modal-close">✕</button>
-      <h3>Активировать бонус</h3>
-      <p>Выбери партнёра и получи эксклюзивный бонус.</p>
-      <div id="modal-list"></div>
-      <div class="modal-footer">Акция заканчивается через <span id="modal-timer">12:34:56</span></div>
-    </div>
-  </div>
-
-  <script>
-    // Basic inline hook for hero CTA (delegates to app.js)
-    document.addEventListener('DOMContentLoaded', function(){
-      document.getElementById('hero-cta').addEventListener('click', openModalFallback);
-      document.getElementById('hero-cta-2').addEventListener('click', openModalFallback);
-    });
-    function openModalFallback(){
-      document.getElementById('modal').classList.add('open');
-    }
-  </script>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
